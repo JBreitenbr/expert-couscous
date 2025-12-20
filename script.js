@@ -364,7 +364,7 @@ class ArpPlayer {
     this._loadTransport();
     
     // change tabs, pause player
-    document.addEventListener('visibilitychange', () => {
+    document.addEventListener('pagehide', () => {
       this.player.playing = true;
       this.playerToggle();
     });
