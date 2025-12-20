@@ -27,9 +27,9 @@ button {
   text-transform: uppercase;
   letter-spacing: 0.125em;
 }
-button .pause {
+/*button .pause {
   display: none;
-}
+}*/
 button.active {
   -webkit-animation: none;
           animation: none;
@@ -39,9 +39,9 @@ button.active {
 button.active .pause {
   display: block;
 }
-button.active .play {
+/*button.active .play {
   display: none;
-}
+}*/
 
 @-webkit-keyframes pulse {
   from {
