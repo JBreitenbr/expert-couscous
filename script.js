@@ -431,7 +431,7 @@ class ArpPlayer {
     };
     
     this.play_toggle = document.createElement('button');
-    this.play_toggle.innerHTML = `<span class="play">Play</span><span class="pause">Pause</span>`;
+    this.play_toggle.innerHTML = `<span>Play</span><span>Pause</span>`;
     this.aside.appendChild(this.play_toggle);
     this.play_toggle.addEventListener('touchstart', (e) => {
       Tone.startMobile();
