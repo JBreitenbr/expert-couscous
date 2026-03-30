@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-  background: #ddd;
+  background: /*#ddd*/ papayawhip;
   color: #222;
 }
 
@@ -14,7 +14,7 @@ button {
   transform: translateX(0.5rem);
   border: none;
   text-align: center;
-  background: #fb0;
+  background: /*#fb0*/dodgerblue;
   font-size: 1.2rem;
   color: white;
   display: block;
